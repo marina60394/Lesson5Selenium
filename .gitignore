@@ -12,3 +12,5 @@ gradle
 /.idea/*
 
 build
+
+test

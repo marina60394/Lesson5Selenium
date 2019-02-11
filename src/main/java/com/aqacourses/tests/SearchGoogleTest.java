@@ -32,7 +32,7 @@ public class SearchGoogleTest {
         options.addArguments("disable-infobars");
 
         //  Initialize path to chromedriver
-        System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
 
         // Initialize instance of ChromeDriver and add options
         driver = new ChromeDriver(options);
