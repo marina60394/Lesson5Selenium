@@ -54,10 +54,10 @@ public class SearchGoogleTest {
         driver.get("http://google.com");
 
         // SendKeys keyword
-        driver.findElement(By.xpath("//input[@title='Поиск']")).sendKeys("Automation testing");
+        driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("Automation testing");
 
         //  Click to Search Button
-        driver.findElement(By.xpath("//div[@class='VlcLAe']//input[@value='Поиск в Google']")).click();
+        driver.findElement(By.xpath("//div[@class='VlcLAe']//input[@name='btnK']")).click();
 
         //  find element
         WebElement link = driver.findElement(By.partialLinkText("https://www.qasymphony.com"));
